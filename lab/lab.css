@@ -148,4 +148,25 @@ padding: 5px;
   .button:hover i{
       color:black
   }
+.conMain{
+    width: 100%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
 
+}
+.conMain p{
+    color:#2c3e50;
+    font-size: 20px
+}
+.input input{
+    height: 40px;
+    background: transparent;
+    border-top: transparent ;
+    border-left: transparent;
+    border-right: transparent ;
+    border-bottom: 0.1px solid gray ;
+    outline: none;
+}
