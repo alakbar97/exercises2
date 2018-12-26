@@ -34,3 +34,14 @@ b{
 .col-md-7 p{
     font-size: 20px;
 }
+.image{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.image .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
