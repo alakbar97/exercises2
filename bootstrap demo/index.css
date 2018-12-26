@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box
+}
+a{
+    text-decoration: none !important;
+}
+.logo{
+    margin: auto;
+}
+
+i{
+    color:rgba(0,0,0,.5);
+} 
+p{
+    color:#6c757d
+}
+.head{
+    height: 300px;
+    background-color: #b84d45;
+    background-image: url(bg.jpg)
+}
+h1{
+    color:white;
+    margin-top: 40px;
+    font-size: 60px;
+}
+h1+p{
+    font-size: 25px;
+}
+b{
+    font-size: 35px;
+    margin-left: 20px;
+}
+.col-md-7 p{
+    font-size: 20px;
+}
