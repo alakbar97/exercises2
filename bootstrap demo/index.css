@@ -19,6 +19,10 @@ p{
     background-color: #b84d45;
     background-image: url(bg.jpg)
 }
+.footer{
+    background-color: #b84d45;
+    background-image: url(bg.jpg) 
+}
 h1{
     color:white;
     margin-top: 40px;
@@ -60,4 +64,21 @@ img:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.image3{
+    display: flex;
+    justify-content: space-around;
+}
+.image3 .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scbtn:hover{
+    transform: scale(1.1)
+}
+.scbtn{
+    background-color: #b84d45;
+    color: white;
+    margin:60px;
 }

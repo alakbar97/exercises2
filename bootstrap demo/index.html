@@ -1,416 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 </head>
+
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-md bg-light navbar-light">
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link navbar-brand" href="">Start Bootstrap</a></li>
-                <div class="dropdown">
-                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">Themes</button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href=""><i class="fas fa-rocket"></i>All Templates&Themes</a>
-                      <a class="dropdown-item" href=""><i class="far fa-star"></i>Most Popular</a>
-                      <a class="dropdown-item" href=""><i class="fas fa-shopping-basket"></i>Buy Bootstrap Templates</a>
-                      <div class="dropdown-divider"></div>
-                      <p>Template & Theme Categories:</p>
-                      <a class="dropdown-item" href="">Admin and DashBoard</a>
-                      <a class="dropdown-item" href="">Full Websites</a>
-                      <a class="dropdown-item" href="">Landing Pages</a>
-                      <a class="dropdown-item" href="">Onepage Websites</a>
-                      <a class="dropdown-item" href="">Portfolios</a>
-                      <a class="dropdown-item" href="">Blogs</a>
-                      <a class="dropdown-item" href="">Ecommerce</a>
-                      <a class="dropdown-item" href="">Unstyled Starter Templates</a>
-                      <a class="dropdown-item" href="">Navigation and Navbar</a>
-                    </div>
-                  </div>
-                <li class="nav-item"><a class="nav-link" href="">Snippets</a></li>
-                <div class="dropdown">
-                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">Resources</button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href=""><i class="fas fa-th-list"></i>Bootstrap Resources List</a>
-                      <a class="dropdown-item" href=""><i class="far fa-life-ring"></i>Help&FAQ</a>
-                    </div>
-                  </div>
-                <li class="nav-item"><a class="nav-link" href="">Articles</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
-            </ul>
-            <ul class="logo">
-            <il class="nav-item first"><a href=""><i class="fas fa-shopping-cart nav-link">Shop</i></a></il>
-                <il class="nav-item"><a href=""><i class="fas fa-search nav-link"></i></a></il>
-                <il class="nav-item"><a href=""><i class="fab fa-twitter nav-link"></i></a></il>
-                <il class="nav-item"><a href=""><i class="fab fa-github nav-link"></i></a></il>
-                <il class="nav-item"><a href=""><i class="fab fa-slack nav-link"></i></a></il>
-            </ul>
-        </nav>
-        <div class="row head">
-            <div class="col-md-2"></div>
-            <div class="col-md-6">
-                <h1>Themes & Templates</h1>
-                <p style="color:rgba(255,255,255,.5);">Our complete collection of Bootstrap themes and templates. Use our themes for any project, personal or commercial. All of the items you see are built with Bootstrap 4, HTML5, and CSS3!</p>
-            </div>
-            <div class="col-md-4"></div>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <ul class="navbar-nav">
+        <li class="nav-item active"><a class="nav-link navbar-brand" href="">Start Bootstrap</a></li>
+        <div class="dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Themes</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href=""><i class="fas fa-rocket"></i>All Templates&Themes</a>
+            <a class="dropdown-item" href=""><i class="far fa-star"></i>Most Popular</a>
+            <a class="dropdown-item" href=""><i class="fas fa-shopping-basket"></i>Buy Bootstrap Templates</a>
+            <div class="dropdown-divider"></div>
+            <p>Template & Theme Categories:</p>
+            <a class="dropdown-item" href="">Admin and DashBoard</a>
+            <a class="dropdown-item" href="">Full Websites</a>
+            <a class="dropdown-item" href="">Landing Pages</a>
+            <a class="dropdown-item" href="">Onepage Websites</a>
+            <a class="dropdown-item" href="">Portfolios</a>
+            <a class="dropdown-item" href="">Blogs</a>
+            <a class="dropdown-item" href="">Ecommerce</a>
+            <a class="dropdown-item" href="">Unstyled Starter Templates</a>
+            <a class="dropdown-item" href="">Navigation and Navbar</a>
+          </div>
         </div>
-        <div class="row" style="height:30px;"></div>
-        <div class="row">
-            <div class="col-md-1"></div>
-           <div class="col-md-10">
-            <ul class="breadcrumb">
-                <li class="breadcrumb-item active"><a href="" style="color:#b84d45;">Start Bootstrap</a></li>
-                <li class="breadcrumb-item">Themes & Templates</li>
-              </ul>
-        </div> 
-        <div class="col-md-1"></div>
+        <li class="nav-item"><a class="nav-link" href="">Snippets</a></li>
+        <div class="dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href=""><i class="fas fa-th-list"></i>Bootstrap Resources List</a>
+            <a class="dropdown-item" href=""><i class="far fa-life-ring"></i>Help&FAQ</a>
+          </div>
         </div>
-        <div class="row" style="height:30px;"></div>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"><b>Bootstrap Themes</b></div>
-            <div class="col-md-4"></div>
+        <li class="nav-item"><a class="nav-link" href="">Articles</a></li>
+        <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+      </ul>
+      <ul class="logo">
+        <il class="nav-item first"><a href=""><i class="fas fa-shopping-cart nav-link">Shop</i></a></il>
+        <il class="nav-item"><a href=""><i class="fas fa-search nav-link"></i></a></il>
+        <il class="nav-item"><a href=""><i class="fab fa-twitter nav-link"></i></a></il>
+        <il class="nav-item"><a href=""><i class="fab fa-github nav-link"></i></a></il>
+        <il class="nav-item"><a href=""><i class="fab fa-slack nav-link"></i></a></il>
+      </ul>
+    </nav>
+    <div class="row head">
+      <div class="col-md-2"></div>
+      <div class="col-md-6">
+        <h1>Themes & Templates</h1>
+        <p style="color:rgba(255,255,255,.5);">Our complete collection of Bootstrap themes and templates. Use our
+          themes for any project, personal or commercial. All of the items you see are built with Bootstrap 4, HTML5,
+          and CSS3!</p>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+    <div class="row" style="height:30px;"></div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item active"><a href="" style="color:#b84d45;">Start Bootstrap</a></li>
+          <li class="breadcrumb-item">Themes & Templates</li>
+        </ul>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="row" style="height:30px;"></div>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4"><b>Bootstrap Themes</b></div>
+      <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-7">
+        <p>Fully designed Bootstrap 4 themes that are ready to customize and publish!</p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-5"></div>
+      <div class="col-md-1 bg-secondary" style="height:1px; color: black"></div>
+      <div class="col-md-6"></div>
+    </div>
+    <br><br>
+    <div class="image">
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="1.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Coming Soon</h4>
+          <p class="card-text">A coming soon landing page.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
         </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-7"><p>Fully designed Bootstrap 4 themes that are ready to customize and publish!</p></div>
-            <div class="col-md-2"></div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="2.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Resume</h4>
+          <p class="card-text">A simple CV/resume theme.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
         </div>
-        <div class="row">
-            <div class="col-md-5"></div>
-            <div class="col-md-1 bg-secondary" style="height:1px; color: black"></div>
-            <div class="col-md-6"></div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="3.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">New Age</h4>
+          <p class="card-text">An app landing page theme.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
         </div>
-        <br><br>
-        <div class="image">
-        <div class="card" style="width:400px">
-                <a href=""><img class="card-img-top" src="1.jpg" alt="Card image" style="width:100%"></a>                
-                <div class="card-body">
-                  <h4 class="card-title">Coming Soon</h4>
-                  <p class="card-text">A coming soon landing page.</p>
-                  <a href="" class="btn btn-secondary">Preview & Download</a>
-                </div>
-              </div>
-             <div class="card" style="width:400px">
-                    <a href=""><img class="card-img-top" src="2.jpg" alt="Card image" style="width:100%"></a>    
-                    <div class="card-body">
-                      <h4 class="card-title">Resume</h4>
-                      <p class="card-text">A simple CV/resume theme.</p>
-                      <a href="" class="btn btn-secondary">Preview & Download</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width:400px">
-                        <a href=""><img class="card-img-top" src="3.jpg" alt="Card image" style="width:100%"></a> 
-                         <div class="card-body">
-                          <h4 class="card-title">New Age</h4>
-                          <p class="card-text">An app landing page theme.</p>
-                          <a href="" class="btn btn-secondary">Preview & Download</a>
-                        </div>
-                      </div>
-                      <div class="card" style="width:400px">
-                            <a href=""><img class="card-img-top" src="4.jpg" alt="Card image" style="width:100%"></a>  
-                            <div class="card-body">
-                              <h4 class="card-title">Creative</h4>
-                              <p class="card-text">A one page creative theme.</p>
-                              <a href="" class="btn btn-secondary">Preview & Download</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width:400px">
-                                <a href=""><img class="card-img-top" src="5.jpg" alt="Card image" style="width:100%"></a>    
-                                <div class="card-body">
-                                  <h4 class="card-title">Clean Blog</h4>
-                                  <p class="card-text">A clean blog theme.</p>
-                                  <a href="" class="btn btn-secondary">Preview & Download</a>
-                                </div>
-                              </div>
-                              <div class="card" style="width:400px">
-                                    <a href=""><img class="card-img-top" src="6.jpg" alt="Card image" style="width:100%"></a>   
-                                    <div class="card-body">
-                                      <h4 class="card-title">Agency</h4>
-                                      <p class="card-text">A one page agency theme.</p>
-                                      <a href="" class="btn btn-secondary">Preview & Download</a>
-                                    </div>
-                                  </div>
-                                  <div class="card" style="width:400px">
-                                        <a href=""><img class="card-img-top" src="7.jpg" alt="Card image" style="width:100%"></a>                                       
-                                         <div class="card-body">
-                                          <h4 class="card-title">Freelancer</h4>
-                                          <p class="card-text">A one page freelancer theme.</p>
-                                          <a href="" class="btn btn-secondary">Preview & Download</a>
-                                        </div>
-                                      </div>
-                                      <div class="card" style="width:400px">
-                                            <a href=""><img class="card-img-top" src="8.jpg" alt="Card image" style="width:100%"></a>                                            
-                                            <div class="card-body">
-                                              <h4 class="card-title">Grayscale</h4>
-                                              <p class="card-text">A multipurpose one page theme.</p>
-                                              <a href="" class="btn btn-secondary">Preview & Download</a>
-                                            </div>
-                                          </div>
-                                          <div class="card" style="width:400px">
-                                                <a href=""><img class="card-img-top" src="9.jpg" alt="Card image" style="width:100%"></a>                                                
-                                                <div class="card-body">
-                                                  <h4 class="card-title">SB Admin 2</h4>
-                                                  <p class="card-text">A free Bootstrap admin theme.</p>
-                                                  <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                </div>
-                                              </div>
-                                              <div class="card" style="width:400px">
-                                                    <a href=""><img class="card-img-top" src="10.jpg" alt="Card image" style="width:100%"></a>                                                    
-                                                    <div class="card-body">
-                                                      <h4 class="card-title">Landing Page</h4>
-                                                      <p class="card-text">A clean, functional landing page theme.</p>
-                                                      <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                    </div>
-                                                  </div>
-                                                  <div class="card" style="width:400px">
-                                                        <a href=""><img class="card-img-top" src="11.jpg" alt="Card image" style="width:100%"></a>                                                        
-                                                        <div class="card-body">
-                                                          <h4 class="card-title">Business Casual</h4>
-                                                          <p class="card-text">A fully developed business website.</p>
-                                                          <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                        </div>
-                                                      </div>
-                                                      <div class="card" style="width:400px">
-                                                            <a href=""><img class="card-img-top" src="12.jpg" alt="Card image" style="width:100%"></a>                                                            
-                                                            <div class="card-body">
-                                                              <h4 class="card-title">SB Admin</h4>
-                                                              <p class="card-text">A free Bootstrap admin template. </p>
-                                                              <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                            </div>
-                                                          </div>
-                                                          <div class="card" style="width:400px">
-                                                                <a href=""><img class="card-img-top" src="13.jpg" alt="Card image" style="width:100%"></a>                                                                
-                                                                <div class="card-body">
-                                                                  <h4 class="card-title">Stylish Portfolio</h4>
-                                                                  <p class="card-text">A stylish Bootstrap portfolio theme.</p>
-                                                                  <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                </div>
-                                                              </div>
-                                                              <div class="card" style="width:400px">
-                                                              <a href=""><img class="card-img-top" src="14.jpg" alt="Card image" style="width:100%"></a>
-                                                                    <div class="card-body">
-                                                                      <h4 class="card-title">One Page Wonder</h4>
-                                                                      <p class="card-text">A simple one page website template.</p>
-                                                                      <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                    </div>
-                                                                  </div>
-                                                                  <div style="width:400px;"></div>
-            </div>
-            <div class="row" style="height:30px;"></div>
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4"><b>Bootstrap Templates</b></div>
-                <div class="col-md-4"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-7"><p>Bootstrap 4 layouts that are a perfect starting point for projects or custom pages.</p></div>
-                <div class="col-md-2"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-5"></div>
-                <div class="col-md-1 bg-secondary" style="height:1px; color: black"></div>
-                <div class="col-md-6"></div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="4.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Creative</h4>
+          <p class="card-text">A one page creative theme.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="5.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Clean Blog</h4>
+          <p class="card-text">A clean blog theme.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="6.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Agency</h4>
+          <p class="card-text">A one page agency theme.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="7.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Freelancer</h4>
+          <p class="card-text">A one page freelancer theme.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="8.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Grayscale</h4>
+          <p class="card-text">A multipurpose one page theme.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="9.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">SB Admin 2</h4>
+          <p class="card-text">A free Bootstrap admin theme.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="10.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Landing Page</h4>
+          <p class="card-text">A clean, functional landing page theme.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="11.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Business Casual</h4>
+          <p class="card-text">A fully developed business website.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="12.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">SB Admin</h4>
+          <p class="card-text">A free Bootstrap admin template. </p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="13.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Stylish Portfolio</h4>
+          <p class="card-text">A stylish Bootstrap portfolio theme.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="14.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div style="width:400px;"></div>
+    </div>
+    <div class="row" style="height:30px;"></div>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4"><b>Bootstrap Templates</b></div>
+      <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-7">
+        <p>Bootstrap 4 layouts that are a perfect starting point for projects or custom pages.</p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-5"></div>
+      <div class="col-md-1 bg-secondary" style="height:1px; color: black"></div>
+      <div class="col-md-6"></div>
     </div><br><br>
     <div class="image2">
       <div class="card" style="width:400px">
         <a href=""><img class="card-img-top" src="15.jpg" alt="Card image" style="width:100%"></a>
-              <div class="card-body">
-                <h4 class="card-title">One Page Wonder</h4>
-                <p class="card-text">A simple one page website template.</p>
-                <a href="" class="btn btn-secondary">Preview & Download</a>
-              </div>
-            </div>
-            <div class="card" style="width:400px">
-              <a href=""><img class="card-img-top" src="16.jpg" alt="Card image" style="width:100%"></a>
-                    <div class="card-body">
-                      <h4 class="card-title">One Page Wonder</h4>
-                      <p class="card-text">A simple one page website template.</p>
-                      <a href="" class="btn btn-secondary">Preview & Download</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width:400px">
-                    <a href=""><img class="card-img-top" src="17.jpg" alt="Card image" style="width:100%"></a>
-                          <div class="card-body">
-                            <h4 class="card-title">One Page Wonder</h4>
-                            <p class="card-text">A simple one page website template.</p>
-                            <a href="" class="btn btn-secondary">Preview & Download</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width:400px">
-                          <a href=""><img class="card-img-top" src="18.jpg" alt="Card image" style="width:100%"></a>
-                                <div class="card-body">
-                                  <h4 class="card-title">One Page Wonder</h4>
-                                  <p class="card-text">A simple one page website template.</p>
-                                  <a href="" class="btn btn-secondary">Preview & Download</a>
-                                </div>
-                              </div>
-                              <div class="card" style="width:400px">
-                                <a href=""><img class="card-img-top" src="19.jpg" alt="Card image" style="width:100%"></a>
-                                      <div class="card-body">
-                                        <h4 class="card-title">One Page Wonder</h4>
-                                        <p class="card-text">A simple one page website template.</p>
-                                        <a href="" class="btn btn-secondary">Preview & Download</a>
-                                      </div>
-                                    </div>
-                                    <div class="card" style="width:400px">
-                                      <a href=""><img class="card-img-top" src="20.jpg" alt="Card image" style="width:100%"></a>
-                                            <div class="card-body">
-                                              <h4 class="card-title">One Page Wonder</h4>
-                                              <p class="card-text">A simple one page website template.</p>
-                                              <a href="" class="btn btn-secondary">Preview & Download</a>
-                                            </div>
-                                          </div>
-                                          <div class="card" style="width:400px">
-                                            <a href=""><img class="card-img-top" src="21.jpg" alt="Card image" style="width:100%"></a>
-                                                  <div class="card-body">
-                                                    <h4 class="card-title">One Page Wonder</h4>
-                                                    <p class="card-text">A simple one page website template.</p>
-                                                    <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                  </div>
-                                                </div>
-                                                <div class="card" style="width:400px">
-                                                  <a href=""><img class="card-img-top" src="22.jpg" alt="Card image" style="width:100%"></a>
-                                                        <div class="card-body">
-                                                          <h4 class="card-title">One Page Wonder</h4>
-                                                          <p class="card-text">A simple one page website template.</p>
-                                                          <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                        </div>
-                                                      </div>
-                                                      <div class="card" style="width:400px">
-                                                        <a href=""><img class="card-img-top" src="23.jpg" alt="Card image" style="width:100%"></a>
-                                                              <div class="card-body">
-                                                                <h4 class="card-title">One Page Wonder</h4>
-                                                                <p class="card-text">A simple one page website template.</p>
-                                                                <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                              </div>
-                                                            </div>
-                                                            <div class="card" style="width:400px">
-                                                              <a href=""><img class="card-img-top" src="24.jpg" alt="Card image" style="width:100%"></a>
-                                                                    <div class="card-body">
-                                                                      <h4 class="card-title">One Page Wonder</h4>
-                                                                      <p class="card-text">A simple one page website template.</p>
-                                                                      <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                    </div>
-                                                                  </div>
-                                                                  <div class="card" style="width:400px">
-                                                                    <a href=""><img class="card-img-top" src="25.jpg" alt="Card image" style="width:100%"></a>
-                                                                          <div class="card-body">
-                                                                            <h4 class="card-title">One Page Wonder</h4>
-                                                                            <p class="card-text">A simple one page website template.</p>
-                                                                            <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                          </div>
-                                                                        </div>
-                                                                        <div class="card" style="width:400px">
-                                                                          <a href=""><img class="card-img-top" src="26.jpg" alt="Card image" style="width:100%"></a>
-                                                                                <div class="card-body">
-                                                                                  <h4 class="card-title">One Page Wonder</h4>
-                                                                                  <p class="card-text">A simple one page website template.</p>
-                                                                                  <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                </div>
-                                                                              </div>
-                                                                              <div class="card" style="width:400px">
-                                                                                <a href=""><img class="card-img-top" src="27.jpg" alt="Card image" style="width:100%"></a>
-                                                                                      <div class="card-body">
-                                                                                        <h4 class="card-title">One Page Wonder</h4>
-                                                                                        <p class="card-text">A simple one page website template.</p>
-                                                                                        <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                      </div>
-                                                                                    </div>
-                                                                                    <div class="card" style="width:400px">
-                                                                                      <a href=""><img class="card-img-top" src="28.jpg" alt="Card image" style="width:100%"></a>
-                                                                                            <div class="card-body">
-                                                                                              <h4 class="card-title">One Page Wonder</h4>
-                                                                                              <p class="card-text">A simple one page website template.</p>
-                                                                                              <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                            </div>
-                                                                                          </div>
-                                                                                          <div class="card" style="width:400px">
-                                                                                            <a href=""><img class="card-img-top" src="29.jpg" alt="Card image" style="width:100%"></a>
-                                                                                                  <div class="card-body">
-                                                                                                    <h4 class="card-title">One Page Wonder</h4>
-                                                                                                    <p class="card-text">A simple one page website template.</p>
-                                                                                                    <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                                  </div>
-                                                                                                </div>
-                                                                                                <div class="card" style="width:400px">
-                                                                                                  <a href=""><img class="card-img-top" src="30.jpg" alt="Card image" style="width:100%"></a>
-                                                                                                        <div class="card-body">
-                                                                                                          <h4 class="card-title">One Page Wonder</h4>
-                                                                                                          <p class="card-text">A simple one page website template.</p>
-                                                                                                          <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                                        </div>
-                                                                                                      </div>
-                                                                                                      <div class="card" style="width:400px">
-                                                                                                        <a href=""><img class="card-img-top" src="31.jpg" alt="Card image" style="width:100%"></a>
-                                                                                                              <div class="card-body">
-                                                                                                                <h4 class="card-title">One Page Wonder</h4>
-                                                                                                                <p class="card-text">A simple one page website template.</p>
-                                                                                                                <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                                              </div>
-                                                                                                            </div>
-                                                                                                            <div class="card" style="width:400px">
-                                                                                                              <a href=""><img class="card-img-top" src="32.jpg" alt="Card image" style="width:100%"></a>
-                                                                                                                    <div class="card-body">
-                                                                                                                      <h4 class="card-title">One Page Wonder</h4>
-                                                                                                                      <p class="card-text">A simple one page website template.</p>
-                                                                                                                      <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                                                    </div>
-                                                                                                                  </div>
-                                                                                                                  <div class="card" style="width:400px">
-                                                                                                                    <a href=""><img class="card-img-top" src="33.jpg" alt="Card image" style="width:100%"></a>
-                                                                                                                          <div class="card-body">
-                                                                                                                            <h4 class="card-title">One Page Wonder</h4>
-                                                                                                                            <p class="card-text">A simple one page website template.</p>
-                                                                                                                            <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                                                          </div>
-                                                                                                                        </div>
-                                                                                                                        <div class="card" style="width:400px">
-                                                                                                                          <a href=""><img class="card-img-top" src="34.jpg" alt="Card image" style="width:100%"></a>
-                                                                                                                                <div class="card-body">
-                                                                                                                                  <h4 class="card-title">One Page Wonder</h4>
-                                                                                                                                  <p class="card-text">A simple one page website template.</p>
-                                                                                                                                  <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                                                                </div>
-                                                                                                                              </div>
-                                                                                                                              <div class="card" style="width:400px">
-                                                                                                                                <a href=""><img class="card-img-top" src="35.jpg" alt="Card image" style="width:100%"></a>
-                                                                                                                                      <div class="card-body">
-                                                                                                                                        <h4 class="card-title">One Page Wonder</h4>
-                                                                                                                                        <p class="card-text">A simple one page website template.</p>
-                                                                                                                                        <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                                                                      </div>
-                                                                                                                                    </div>
-                                                                                                                                    <div class="card" style="width:400px">
-                                                                                                                                      <a href=""><img class="card-img-top" src="36.jpg" alt="Card image" style="width:100%"></a>
-                                                                                                                                            <div class="card-body">
-                                                                                                                                              <h4 class="card-title">One Page Wonder</h4>
-                                                                                                                                              <p class="card-text">A simple one page website template.</p>
-                                                                                                                                              <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                                                                            </div>
-                                                                                                                                          </div>
-                                                                                                                                          <div class="card" style="width:400px">
-                                                                                                                                            <a href=""><img class="card-img-top" src="37.jpg" alt="Card image" style="width:100%"></a>
-                                                                                                                                                  <div class="card-body">
-                                                                                                                                                    <h4 class="card-title">One Page Wonder</h4>
-                                                                                                                                                    <p class="card-text">A simple one page website template.</p>
-                                                                                                                                                    <a href="" class="btn btn-secondary">Preview & Download</a>
-                                                                                                                                                  </div>
-                                                                                                                                                </div>
-                                                                                                                                                <div style="width:400px"></div>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="16.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="17.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="18.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="19.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="20.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="21.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="22.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="23.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="24.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="25.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="26.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="27.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="28.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="29.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="30.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="31.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="32.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="33.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="34.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="35.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="36.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="37.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">One Page Wonder</h4>
+          <p class="card-text">A simple one page website template.</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div style="width:400px"></div>
 
 
     </div>
+    <div class="row" style="height:30px;"></div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-5"><b>Premium Bootstrap Themes</b></div>
+      <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-7">
+        <p>Looking for something more? Try these hand picked premium themes!</p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-5"></div>
+      <div class="col-md-1 bg-secondary" style="height:1px; color: black"></div>
+      <div class="col-md-6"></div>
+    </div><br><br>
+    <div class="image3">
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="38.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Vitality</h4>
+          <p class="card-text">Multipurpose One Page Theme</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="39.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Material Dashboard Pro</h4>
+          <p class="card-text">Premium Bootstrap Admin Template</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+      <div class="card" style="width:400px">
+        <a href=""><img class="card-img-top" src="40.jpg" alt="Card image" style="width:100%"></a>
+        <div class="card-body">
+          <h4 class="card-title">Now UI Kit Pro</h4>
+          <p class="card-text">Premium Bootstrap 4 UI Kit</p>
+          <a href="" class="btn btn-secondary">Preview & Download</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4"><button type="button" class="btn btn-lg scbtn">View More Premiuim Themes</button></div>
+      <div class="col-md-4"></div>
+    </div>
+    <div class="row footer">
+      <div class="col-md-3"></div>
+      <div class="col-md-7">
+        <h3 style="color:white;text-align: center; margin-top: 50px;">Want more Bootstrap themes & templates?</h3>
+        <p style="color:white; text-align: center;">Subscribe to our mailing list to receive an update when new items arrive!</p>
+        <div style="margin-left:180px">
+        <input type="email" name="email" size="40" placeholder="Email address..">
+        <button type="submit" class="btn btn-light">Subscribe!</button>
+      </div><br>
+      <h5 style="color:white;text-align: center;">or</h5><br>
+       <a href="" style="margin-left: 215px;font-size: 30px;"><i class="fab fa-twitter-square"></i>Follow @SBootstrap</a>
+
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row" style="height:300px">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" style="margin:auto;">
+      <i class="fab fa-twitter" style="font-size:40px;margin-left: 135px;color: skyblue;"></i>
+      <i class="fab fa-github" style="font-size:40px; color: black"></i>
+      <i class="fab fa-facebook" style="font-size:40px;color: blue"></i>
+      <i class="fab fa-google" style="font-size:40px; color: greenyellow"></i><br>
+      <p style="text-align: center;">Start Bootstrap is a project created and maintained by David Miller at Blackrock Digital. 
+        Themes and templates licensed MIT, Start Bootstrap website CC BY 3.0. 
+        Based on Bootstrap.</p>
+    </div>
+    <div class="col-md-4"></div>
+    </div>
   </div>
 </body>
+
 </html>
