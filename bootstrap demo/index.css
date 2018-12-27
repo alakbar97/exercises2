@@ -49,3 +49,15 @@ b{
 img:hover{
     opacity: 0.6;
 }
+.image2{
+    height: 3500px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.image2 .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
