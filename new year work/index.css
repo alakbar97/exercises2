@@ -1,3 +1,12 @@
 *{
     box-sizing: border-box;
 }
+ul,nav:first-child a{
+    margin: auto;
+}
+.col-md-12{
+    background-image: url(bt.jpg)
+}
+h1{
+    font-size: 50px;
+}
