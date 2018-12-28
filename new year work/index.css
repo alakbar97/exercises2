@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+.fixed-top{
+    transition: 1s;
+}
 ul,nav:first-child a{
     margin: auto;
 }
