@@ -10,3 +10,10 @@ ul,nav:first-child a{
 h1{
     font-size: 50px;
 }
+.gotham{
+    border-bottom: 1px solid white;
+}
+nav li :hover {
+    transition: 1s;
+    border-bottom: 1px solid white;
+}
