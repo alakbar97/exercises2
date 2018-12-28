@@ -17,3 +17,7 @@ nav li :hover {
     transition: 1s;
     border-bottom: 1px solid white;
 }
+.scrow span{
+    font-size: 40px;
+    border-bottom: 4px solid #007bff;
+}
