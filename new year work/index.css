@@ -7,7 +7,7 @@
 ul,nav:first-child a{
     margin: auto;
 }
-.col-md-12{
+.header{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -50,8 +50,25 @@ nav li :hover {
     border:none;
 }
 .uphead{
+    display: none;
 position: fixed;
 bottom: 0px;
 right: 0px;
 font-size: 40px;
+z-index: 1;
+}
+.service{
+    background-image: url(bat.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.log{
+    font-size: 50px;
+    color: white;
+}
+.ser{
+    background: transparent
 }

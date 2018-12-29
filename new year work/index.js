@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-    //  var scroll = $(window).scrollTop();
      if ($(window).scrollTop()>150) {
          $(".fixed-top").css({"background":"black"})
      }
@@ -8,4 +7,12 @@ $(document).ready(function(){
          $(".fixed-top").css({"background":"transparent"})
      }
     });
+$(window).scroll(function () {
+    if ($(window).scrollTop()<1) {
+        $(".uphead").css({"display":"none"})
+    }
+    else{
+        $(".uphead").css({"display":"block"})
+    }
+})
   });
