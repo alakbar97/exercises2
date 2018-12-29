@@ -72,3 +72,30 @@ z-index: 1;
 .ser{
     background: transparent
 }
+.ab{
+    text-align: center;
+}
+.abil{
+    border: 1px solid #007bff;
+    border-radius: 100%;
+    color: #007bff;
+    padding: 20px;
+}
+
+.hov {
+    position: relative;
+    overflow: hidden;
+}
+.hov:hover img{
+    transition: 1s;
+    transform: scale(1.5)
+}
+.carousel-content {
+    background: transparent;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
