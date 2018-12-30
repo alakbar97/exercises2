@@ -58,19 +58,28 @@ font-size: 40px;
 z-index: 1;
 }
 .service{
-    background-image: url(bat.jpg);
+    position: relative;
+    background-image: url(bat.jpg); 
     height: 400px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
 }
+.layer{
+    background-color: rgba(135,206,250,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 .log{
     font-size: 50px;
     color: white;
 }
 .ser{
-    background: transparent
+    background: transparent; 
 }
 .ab{
     text-align: center;
@@ -97,4 +106,17 @@ z-index: 1;
     left: 36%;
     z-index: 20;
     color: white;
+  }
+  .footer{
+      background-image: url(cart.jpg);
+      height: 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+  .liner{
+      height: 5px;
+      width: 120px;
+      background: #007bff;
   }
