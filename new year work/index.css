@@ -109,7 +109,7 @@ z-index: 1;
   }
   .footer{
       background-image: url(cart.jpg);
-      height: 700px;
+      height: 800px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -120,3 +120,27 @@ z-index: 1;
       width: 120px;
       background: #007bff;
   }
+  .social{
+      width:300px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .social li{
+      display: inline-block;
+  }
+  .socials i{
+      padding: 15px;
+  }
+  .soc :hover{ 
+   background-color: #007bff;
+   color: white !important;
+   box-shadow: 0 0 0 3px #cde1f8;
+   border-radius:100%;
+   font-size: 40px;
+  }
+  .soc{
+      border: 3px solid #007bff;
+      border-radius: 100%; 
+      font-size: 40px;
+  }
+  
