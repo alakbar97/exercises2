@@ -38,10 +38,9 @@ nav li :hover {
     border:10px solid #007bff;
     padding: 10px;
     margin: auto;
+    font-size: 45px;
 }
-.circ i{
-font-size: 50px;
-}
+
 .circ :hover{ 
     background-color: #007bff;
     color: white !important;
