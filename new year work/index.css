@@ -48,6 +48,13 @@ font-size: 50px;
     box-shadow: 0 0 0 3px #cde1f8;
     border-radius:100%;
  }
+ .circe{
+    display: inline-block;
+    border-radius: 100%;
+    border:10px solid #007bff;
+    padding: 10px;
+    margin: auto;
+}
 .alf{
     display: flex;
     justify-content: space-around;
