@@ -50,7 +50,7 @@ nav li :hover {
  .circe{
     display: inline-block;
     border-radius: 100%;
-    border:10px solid #007bff;
+    border:10px solid white;
     padding: 10px;
     margin: auto;
 }
@@ -81,7 +81,8 @@ z-index: 1;
     background-position: center center;
 }
 .layer{
-    background-color: rgba(135,206,250,0.7);
+    background-color: #0078ff;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     left: 0;
