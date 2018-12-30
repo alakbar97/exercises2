@@ -39,12 +39,15 @@ nav li :hover {
     padding: 10px;
     margin: auto;
 }
+.circ i{
+font-size: 50px;
+}
 .circ :hover{ 
     background-color: #007bff;
     color: white !important;
     box-shadow: 0 0 0 3px #cde1f8;
     border-radius:100%;
-   }
+ }
 .alf{
     display: flex;
     justify-content: space-around;
