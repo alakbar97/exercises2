@@ -35,21 +35,23 @@ nav li :hover {
     height: 5px;
     background: #007bff;
 }
-.circ{
-    display: inline-block;
+.alfred{
+    margin: auto;
     border-radius: 100%;
     border:10px solid #007bff;
-    padding: 10px;
-    margin: auto;
     font-size: 45px;
+} 
+.alfred i{
+padding: 15px;
 }
-
-.circ :hover{ 
+.alfred :hover{
+    border: none !important;
     background-color: #007bff;
-    color: white !important;
-    box-shadow: 0 0 0 3px #cde1f8;
-    border-radius:100%;
- }
+   color: white !important;
+   box-shadow: 0 0 0 13px #cde1f8;
+   border-radius:100%;
+   font-size: 45px;
+}
  .circe{
     display: inline-block;
     border-radius: 100%;
@@ -161,4 +163,3 @@ z-index: 1;
       border-radius: 100%; 
       font-size: 40px;
   }
-  
