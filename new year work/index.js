@@ -8,7 +8,7 @@ $(document).ready(function(){
      }
     });
 $(window).scroll(function () {
-    if ($(window).scrollTop()<1) {
+    if ($(window).scrollTop()<50) {
         $(".uphead").css({"display":"none"})
     }
     else{
@@ -17,7 +17,7 @@ $(window).scroll(function () {
 })
 $(window).scroll(startCounter);
 function startCounter() {
-    if ($(window).scrollTop() > 1700) {
+    if ($(window).scrollTop() > 1600) {
         $(window).off("scroll", startCounter);
         $('.count').each(function () {
             var $this = $(this);
