@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.cinema{
+    height: 350px;
+}
+.seat{
+    width: 30px;
+    height: 30px;
+    background: white;
+    margin: 5px;
+    text-align: center
+}
+ul li{
+    margin: 14px;
+    list-style: none;
+}
+.seat:hover{
+    cursor: pointer;
+}
+input{
+    margin: 10px;
+}
