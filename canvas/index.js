@@ -102,3 +102,28 @@ ctx.lineTo(640,450);
 ctx.font="15px Arial";
 ctx.fillText("JUL",580,465);
 ctx.stroke();
+
+ctx.fillStyle = "blue";
+ctx.fillRect(50,380,20,60);
+
+ctx.fillStyle = "red";
+ctx.fillRect(70,150,20,290);
+
+ctx.fillStyle = "green";
+ctx.fillRect(90,240,20,200);
+
+ctx.fillStyle = "blue";
+ctx.fillRect(140,280,20,160);
+
+ctx.fillStyle = "red";
+ctx.fillRect(160,320,20,120);
+
+ctx.fillStyle = "green";
+ctx.fillRect(180,80,20,360);
+
+ctx.fillStyle = "blue";
+ctx.fillRect(230,400,20,40);
+
+ctx.fillStyle = "red";
+ctx.fillRect(250,280,20,160);
+
