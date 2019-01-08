@@ -125,5 +125,44 @@ ctx.fillStyle = "blue";
 ctx.fillRect(230,400,20,40);
 
 ctx.fillStyle = "red";
-ctx.fillRect(250,280,20,160);
+ctx.fillRect(250,370,20,70);
+
+ctx.fillStyle = "green";
+ctx.fillRect(270,240,20,200);
+
+ctx.fillStyle = "blue";
+ctx.fillRect(320,40,20,400);
+
+ctx.fillStyle = "red";
+ctx.fillRect(340,420,20,20);
+
+ctx.fillStyle = "green";
+ctx.fillRect(360,130,20,310);
+
+ctx.fillStyle = "blue";
+ctx.fillRect(400,180,20,260);
+
+ctx.fillStyle = "red";
+ctx.fillRect(420,280,20,160);
+
+ctx.fillStyle = "green";
+ctx.fillRect(440,310,20,130);
+
+ctx.fillStyle = "blue";
+ctx.fillRect(480,210,20,230);
+
+ctx.fillStyle = "red";
+ctx.fillRect(500,280,20,160);
+
+ctx.fillStyle = "green";
+ctx.fillRect(520,280,20,160);
+
+ctx.fillStyle = "blue";
+ctx.fillRect(570,370,20,70);
+
+ctx.fillStyle = "red";
+ctx.fillRect(590,370,20,70);
+
+ctx.fillStyle = "green";
+ctx.fillRect(610,80,20,360);
 
