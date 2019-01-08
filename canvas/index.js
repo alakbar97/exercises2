@@ -87,6 +87,8 @@ ctx.lineTo(385,450);
 ctx.font="15px Arial";
 ctx.fillText("APR",325,465);
 ctx.stroke();
+ctx.font="15px Comic Sans MS";
+ctx.fillText("MONTH",315,485);
 ctx.moveTo(470,440)
 ctx.lineTo(470,450);
 ctx.font="15px Arial";
