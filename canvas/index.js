@@ -4,7 +4,7 @@ ctx.moveTo(40,40);
 ctx.lineTo(40,450);
 ctx.stroke();
 ctx.moveTo(30,440)
-ctx.lineTo(440,440);
+ctx.lineTo(640,440);
 ctx.stroke();
 ctx.moveTo(30,40)
 ctx.lineTo(40,40);
@@ -67,38 +67,38 @@ ctx.stroke();
 ctx.moveTo(40,440)
 ctx.lineTo(40,450);
 ctx.stroke();
-ctx.moveTo(100,440)
-ctx.lineTo(100,450);
+ctx.moveTo(125,440)
+ctx.lineTo(125,450);
 ctx.font="15px Arial";
-ctx.fillText("JAN",50,465);
+ctx.fillText("JAN",65,465);
 ctx.stroke();
-ctx.moveTo(160,440)
-ctx.lineTo(160,450);
+ctx.moveTo(210,440)
+ctx.lineTo(210,450);
 ctx.font="15px Arial";
-ctx.fillText("FEB",120,465);
+ctx.fillText("FEB",150,465);
 ctx.stroke();
-ctx.moveTo(220,440)
-ctx.lineTo(220,450);
+ctx.moveTo(300,440)
+ctx.lineTo(300,450);
 ctx.font="15px Arial";
-ctx.fillText("MAR",180,465);
+ctx.fillText("MAR",240,465);
 ctx.stroke();
-ctx.moveTo(280,440)
-ctx.lineTo(280,450);
+ctx.moveTo(385,440)
+ctx.lineTo(385,450);
 ctx.font="15px Arial";
-ctx.fillText("APR",240,465);
+ctx.fillText("APR",325,465);
 ctx.stroke();
-ctx.moveTo(340,440)
-ctx.lineTo(340,450);
+ctx.moveTo(470,440)
+ctx.lineTo(470,450);
 ctx.font="15px Arial";
-ctx.fillText("MAY",300,465);
+ctx.fillText("MAY",410,465);
 ctx.stroke();
-ctx.moveTo(400,440)
-ctx.lineTo(400,450);
+ctx.moveTo(550,440)
+ctx.lineTo(550,450);
 ctx.font="15px Arial";
-ctx.fillText("JUN",360,465);
+ctx.fillText("JUN",490,465);
 ctx.stroke();
-ctx.moveTo(440,440)
-ctx.lineTo(440,450);
+ctx.moveTo(640,440)
+ctx.lineTo(640,450);
 ctx.font="15px Arial";
-ctx.fillText("JUL",410,465);
+ctx.fillText("JUL",580,465);
 ctx.stroke();
