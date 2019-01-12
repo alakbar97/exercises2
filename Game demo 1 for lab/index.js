@@ -3,7 +3,7 @@ $(document).ready(function () {
     $(".main").append("<div class='mover'></div>");
     var Mover = document.querySelector(".mover");
     var mainDiv=document.querySelector(".main")
-    
+     
     var left1 = 0;
     var top1 = 0;
 
@@ -13,16 +13,16 @@ $(document).ready(function () {
 } 
 
 setInterval(function(){
-    var Goal = document.querySelector(".goal")  
+   var Goal = document.querySelector(".goal")  
     if(Goal!=null){
         Goal.remove()
     } 
     var div = document.createElement("div")
     div.classList.add("goal")
+    mainDiv.appendChild(div)
     div.style.left = generateRandomNumber(0,450)+"px"
     div.style.top = generateRandomNumber(0,450)+"px"
-    mainDiv.appendChild(div)
-    },1000)
+    },3000)
 
     $(window).keyup(function move(e) {
         if (e.keyCode == 40 && top1 < 450) {
@@ -42,4 +42,5 @@ setInterval(function(){
             Mover.style.left = left1 + "px";
         }
     })
+    
 })
