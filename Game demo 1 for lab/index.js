@@ -22,7 +22,6 @@ setInterval(function(){
     div.style.left = generateRandomNumber(0,450)+"px"
     div.style.top = generateRandomNumber(0,450)+"px"
     mainDiv.appendChild(div)
-    
     },1000)
 
     $(window).keyup(function move(e) {
