@@ -2,8 +2,29 @@ $(document).ready(function () {
     $("body").append("<div class='main'></div>");
     $(".main").append("<div class='mover'></div>");
     var Mover = document.querySelector(".mover");
+    var mainDiv=document.querySelector(".main")
+    
     var left1 = 0;
     var top1 = 0;
+
+    function generateRandomNumber(min_value , max_value) 
+{
+    return Math.random() * (max_value-min_value) + min_value ;
+} 
+
+setInterval(function(){
+    var Goal = document.querySelector(".goal")  
+    if(Goal!=null){
+        Goal.remove()
+    } 
+    var div = document.createElement("div")
+    div.classList.add("goal")
+    div.style.left = generateRandomNumber(0,450)+"px"
+    div.style.top = generateRandomNumber(0,450)+"px"
+    mainDiv.appendChild(div)
+    
+    },1000)
+
     $(window).keyup(function move(e) {
         if (e.keyCode == 40 && top1 < 450) {
             top1 = top1 + 50;
