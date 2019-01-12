@@ -3,7 +3,7 @@ $(document).ready(function () {
     $(".main").append("<div class='mover'></div>");
     var Mover = document.querySelector(".mover");
     var mainDiv=document.querySelector(".main")
-     
+    var Goal = document.querySelector(".goal")  
     var left1 = 0;
     var top1 = 0;
 
