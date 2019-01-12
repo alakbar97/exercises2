@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    border:1px solid black;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 400px;
+    top: 90px;
+}
+.mover{
+    height: 50px;
+    width: 50px;
+    background: red;
+    position: absolute;
+}
